@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter.md</title>
+    <link rel="stylesheet" href="style.css">
+        <style>
+               
+ body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header, nav, section, footer {
+            margin-bottom: 20px;
+            background-color: #333;
+            padding: 10px;
+            width: 80%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 20%;
+            margin: 1.5%;
+            float: left;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            width: 80%;
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+        }
+            .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        </style>
+</head>
+
+<body>
+    <header>
+        <h1>Enter.md</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="about.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About us</h2>
+        <p>The friendliest and craziest gadget store that will color your digital experience with emotions, style, and creativity. We launched in March 2013 and brought with us the 'Festival of Colors' for the party animals and the 'Enter Lab' for the curious and more reserved youth. Where do we want to go? To create a 'cult' of digital evolution, through which YOU have access to modern technologies and innovative gadgets!</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>We are authorized dealers of companies such as Samsung, Xiaomi, Lenovo, Huawei, Asus, Hisense, JBL, Intel, AMD, Philips, Dyson, We-Vibe (the list goes on and on), and in our arsenal, we have products from the most diverse categories: smartphones, laptops, tablets, gaming products, electric transportation, televisions, audio systems, and a multitude of other smart gadgets.</li>
+            
+            <!-- Add more services as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Gadges</h2>
+        <article class="project">
+             <h3>Phones</h3>
+              <div class="column">
+                    <img src="https://darwin.md/images/product/2023/09/darwin-apple-iphone-15-pro-1-tb-titanium-blue-314619.webp" alt="Project Image" style="width:80%">
+                  </div>
+             <h3>Pc</h3>
+                 <div class="column">
+                     <img src="https://darwin.md/images/product/2023/11/darwin-all-in-one-pc-apple-imac-2023-green-349985.webp" alt="Project Image" style="width:80%">
+                  </div>
+             <h3>Watches</h3>
+                <div class="column">
+                     <img src="https://darwin.md/images/product/2023/09/darwin-ceas-inteligent-apple-watch-series-9-starlight-314269.webp" alt="Project Image" style="width:80%">
+                  </div>
+            <!-- Repeat for each project -->
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form method="post" action="path-to-server-side-script">
+<p>Email: dankiu79@gmail.com            Tel:060013981</p>
+          </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2013 Enter.md All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
